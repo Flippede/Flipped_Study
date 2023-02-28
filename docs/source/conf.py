@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'C#Design'
+copyright = '2023, Flipped'
+author = 'Xu.Zhang'
 
 release = '0.1'
 version = '0.1.0'
