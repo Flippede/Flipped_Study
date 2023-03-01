@@ -19,14 +19,6 @@ Contents
 
    Design/设计四大模式/设计四大模式
 
-   .. toctree::
-       :maxdepth: 1
-       :caption: 四大设计模式
-
-       Design/设计四大模式/J2EE 模式/J2EE 模式
-       Design/设计四大模式/创造型模式/创造型模式
-       Design/设计四大模式/结构型模式/结构型模式
-       Design/设计四大模式/行为型模式/行为型模式
 
 .. toctree::
    :maxdepth: 3
