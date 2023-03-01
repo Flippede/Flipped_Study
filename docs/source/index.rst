@@ -8,8 +8,6 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: 简介
 
     简介
 
