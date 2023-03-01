@@ -33,3 +33,14 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+from recommonmark.parser import CommonMarkParser
+import sphinx_rtd_theme
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+source_parsers = {
+  '.md': CommonMarkParser,
+}
+source_suffix = ['.rst', '.md']
+extensions = ['recommonmark']
