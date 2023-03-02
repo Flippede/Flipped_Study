@@ -17,6 +17,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'myst_parser',
+    'recommonmark',
 ]
 
 intersphinx_mapping = {
@@ -43,4 +45,3 @@ source_parsers = {
   '.md': CommonMarkParser,
 }
 source_suffix = ['.rst', '.md']
-extensions = ['recommonmark']
